@@ -46,3 +46,48 @@ $ yarn add --dev react-native-svg-transformer
 ## Phosphor Icons - Doc: _https://github.com/duongdev/phosphor-react-native_
 
 $ yarn add phosphor-react-native
+
+## React Navigation - Doc: _https://reactnavigation.org/docs/getting-started_
+
+$ yarn add @react-navigation/native
+
+$ expo install react-native-screens
+
+$ yarn add @react-navigation/native-stack
+
+## FireBase Database - _https://firebase.google.com/_
+
+### Conections by - Doc: _https://rnfirebase.io/_
+
+- core
+
+$ yarn add @react-native-firebase/app
+
+- [with EXPO] Using the native Firebase SDK - Doc: _https://docs.expo.dev/guides/setup-native-firebase/_
+
+- On FireBase, add a new register to connect database and save the file genereted on project [iOS & Android]
+
+- On < app.json > insert:     
+
+	"plugins": [
+      	"@react-native-firebase/app"
+	    ],
+	"android": {
+	      "googleServicesFile": "./google-services.json"
+    		},
+	"ios": {
+	      "googleServicesFile": "./GoogleService-Info.plist"
+	    }
+
+$ expo prebuild
+
+## Cloud Functions (*** for iOS need to < cd ios/ && pod install >)
+
+$ yarn add @react-native-firebase/functions
+
+## Authentication (*** for iOS need to < cd ios/ && pod install >)
+
+$ yarn add @react-native-firebase/auth
+
+
+## Emulador Android - _https://react-native.rocketseat.dev/android/windows_
